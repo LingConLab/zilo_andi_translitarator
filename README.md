@@ -29,6 +29,12 @@ $ curl -s https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
 $ sudo apt-get install hfst lexd
 ```
 
+All metadata could be seen using the following command:
+
+```
+$ hfst-edit-metadata zilo_andi_cyrillic2ipa.hfstol
+```
+
 I decided not to do the reverse IPA to cyrillic side as a simple reverse after I gathered all possible capitals:
 
 ```
