@@ -1,0 +1,2 @@
+zilo_andi_cyrillic2ipa.hfstol: zilo_andi_translitarator.lexd
+	lexd $< | hfst-txt2fst | hfst-repeat -f 1 | hfst-fst2fst -O | hfst-edit-metadata --add=author='George Moroz' --add=publisher='Linguistic Convergence Laboratory, HSE University' --add=address='Moscow' --add=licence='GPL-3.0' --add=name='Zilo Andi Cyrillic to IPA translitarator' --add=year='2025' --add=language='Zilo Andi (zilo1238)' --add=citation='Moroz G. (2025) An FST translitarator from Zilo Andi Cyrillic to IPA, https://github.com/LingConLab/zilo_andi_translitarator' -o $@
