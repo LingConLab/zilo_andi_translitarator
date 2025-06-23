@@ -10,5 +10,5 @@ This is an FST converter that converts modified Avar Cyrillic alphabet (used in 
 Please refer to the transliterator as follows:
 
 ```
-Moroz G. (2025) An FST translitarator from Zilo Andi Cyrillic to IPA, https://github.com/LingConLab/zilo_andi_translitarator
+Moroz G. (2025) An FST transliterator from Zilo Andi Cyrillic to IPA, https://github.com/LingConLab/zilo_andi_transliterator
 ```
