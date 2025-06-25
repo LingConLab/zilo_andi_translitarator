@@ -17,7 +17,7 @@ Moroz G. (2025) An FST transliterator from Zilo Andi Cyrillic to IPA, https://gi
 
 ```
 $ make
-$ echo "гьарзалъир" | hfst-proc andi_zilo_cyrillic2ipa.hfstol
+$ echo "гьарзалъир" | hfst-proc zilo_andi_cyrillic2ipa.hfstol
 
 ^гьарзалъир/harzalʔir/harzaɬir$ 
 ```
@@ -38,7 +38,7 @@ $ hfst-edit-metadata zilo_andi_cyrillic2ipa.hfstol
 I decided not to do the reverse IPA to cyrillic side as a simple reverse after I gathered all possible capitals:
 
 ```
-$ echo "anʒilo" | hfst-proc andi_zilo_ipa2cyrillic.hfstol 
+$ echo "anʒilo" | hfst-proc zilo_andi_ipa2cyrillic.hfstol 
 
 ^anʒilo/АНЖИЛО/АНЖИЛо/АНЖИлО/АНЖИло/АНЖиЛО/АНЖиЛо/АНЖилО/АНЖило/АНжИЛО/АНжИЛо/АНжИлО/АНжИло/АНжиЛО/АНжиЛо/АНжилО/АНжило/АнЖИЛО/АнЖИЛо/АнЖИлО/АнЖИло/АнЖиЛО/АнЖиЛо/АнЖилО/АнЖило/АнжИЛО/АнжИЛо/АнжИлО/АнжИло/АнжиЛО/АнжиЛо/АнжилО/Анжило/аНЖИЛО/аНЖИЛо/аНЖИлО/аНЖИло/аНЖиЛО/аНЖиЛо/аНЖилО/аНЖило/аНжИЛО/аНжИЛо/аНжИлО/аНжИло/аНжиЛО/аНжиЛо/аНжилО/аНжило/анЖИЛО/анЖИЛо/анЖИлО/анЖИло/анЖиЛО/анЖиЛо/анЖилО/анЖило/анжИЛО/анжИЛо/анжИлО/анжИло/анжиЛО/анжиЛо/анжилО/анжило$
 ```
